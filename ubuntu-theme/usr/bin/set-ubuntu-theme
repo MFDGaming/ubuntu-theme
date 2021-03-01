@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+echo "Setting theme..."
+gsettings set org.gnome.desktop.wm.preferences button-layout "appmenu:minimize,maximize,close"
+gsettings set org.gnome.desktop.sound theme-name "WoodenBeaver"
+gsettings set org.gnome.desktop.interface cursor-theme "Yaru"
+gsettings set org.gnome.desktop.interface gtk-theme "Yaru-dark"
+gsettings set org.gnome.desktop.interface icon-theme "Yaru"
+gsettings set org.gnome.shell enabled-extensions "['desktop-icons@csoriano', 'alternate-tab@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'ubuntu-dock@ubuntu.com']"
+gsettings set org.gnome.shell disable-user-extensions "false"
+gsettings set org.gnome.shell.extensions.user-theme name "Yaru-dark"
+gsettings set org.gnome.Terminal.Legacy.Settings tab-policy "always"
+echo "Successfully set theme!"
