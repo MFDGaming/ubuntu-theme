@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: all
 Maintainer: MFDGaming
 Installed-Size: 49000
-Depends: gnome-shell (<< 3.39), gnome-shell (>= 3.35.90), dconf-gsettings-backend | gsettings-backend, gnome-shell-extension-desktop-icons, gnome-shell-extensions
+Depends: gnome-shell, dconf-gsettings-backend | gsettings-backend, gnome-shell-extension-desktop-icons, gnome-shell-extensions
 Replaces: gnome-shell-extension-dashtodock
 Section: gnome
 Priority: optional
